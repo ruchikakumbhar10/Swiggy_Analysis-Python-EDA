@@ -22,113 +22,7 @@ The objective of this project is to:
 4. Explore operational strategies to reduce late deliveries
 
 ---
-
-## 3. Dataset Description
-
-The dataset contains 45K+ delivery records with operational, geographical, and time‑based attributes.
-
-### Key Columns:
-
-1. Delivery Partner Details
-2. Restaurant & Delivery Location Coordinates
-3. Order & Pickup Time
-4. Weather Conditions
-5. Traffic Density
-6. Vehicle Type & Condition
-7. Multiple Deliveries
-8. City
-9. Time Taken (Delivery Duration)
-
----
-
-## 4. Data Cleaning & Preprocessing
-
-Data preparation steps included:
-
-1. Handling NaN and inconsistent values
-2. Cleaning categorical text fields
-3. Converting time columns to datetime format
-4. Extracting order hour & minute features
-5. Removing invalid latitude & longitude entries
-6. Formatting delivery duration column
-
-Clean data ensured accurate delay and SLA analysis.
-
----
-
-## 5. SLA Definition
-
-A delivery is considered **Late** if:
-
-Time Taken > 30 minutes
-
-This threshold was used to create a Late Delivery flag for analysis.
-
----
-
-## 6. Key Analysis Areas
-
-### 6.1 Late Delivery Measurement
-
-1. Percentage of late deliveries
-2. Average delay duration
-
-### 6.2 Distance Impact
-
-1. Delivery distance calculation using geo‑coordinates
-2. Delay probability across distance ranges
-
-### 6.3 Time‑Based Analysis
-
-1. Hourly delay distribution
-2. Peak vs non‑peak comparison
-3. Weekend vs weekday performance
-
-### 6.4 City‑Wise Analysis
-
-1. Late delivery rates by city
-2. Operational load comparison
-
-### 6.5 Order Risk Characteristics
-
-1. Distance
-2. Traffic conditions
-3. Weather
-4. Multiple deliveries
-5. Rider ratings
-
----
-
-## 7. High‑Risk Order Identification
-
-A rule‑based framework was built to tag orders likely to be delivered late using:
-
-1. Long delivery distance
-2. Peak hours
-3. Heavy traffic
-4. Adverse weather
-5. Multiple active deliveries
-6. Low rider ratings
-
-This helps enable proactive operational intervention.
-
----
-
-## 8. Distance Cap Simulation
-
-A delivery radius simulation was conducted to evaluate delay reduction.
-
-Steps:
-
-1. Apply distance caps (2 km, 5 km, 8 km, etc.)
-2. Recalculate late delivery %
-3. Compare against current performance
-
-This demonstrated how limiting long‑distance orders can reduce SLA breaches.
-
----
-
-## 9. Project Architecture Diagram
+## 3. Project Architecture Diagram
 
 The project follows a structured analytics pipeline from raw data to business insights.
 
@@ -160,7 +54,112 @@ The project follows a structured analytics pipeline from raw data to business in
             Operational Recommendations
 ```
 
+
+## 4. Dataset Description
+
+The dataset contains 45K+ delivery records with operational, geographical, and time‑based attributes.
+
+### Key Columns:
+
+1. Delivery Partner Details
+2. Restaurant & Delivery Location Coordinates
+3. Order & Pickup Time
+4. Weather Conditions
+5. Traffic Density
+6. Vehicle Type & Condition
+7. Multiple Deliveries
+8. City
+9. Time Taken (Delivery Duration)
+
 ---
+
+## 5. Data Cleaning & Preprocessing
+
+Data preparation steps included:
+
+1. Handling NaN and inconsistent values
+2. Cleaning categorical text fields
+3. Converting time columns to datetime format
+4. Extracting order hour & minute features
+5. Removing invalid latitude & longitude entries
+6. Formatting delivery duration column
+
+Clean data ensured accurate delay and SLA analysis.
+
+---
+
+## 6. SLA Definition
+
+A delivery is considered **Late** if:
+
+Time Taken > 30 minutes
+
+This threshold was used to create a Late Delivery flag for analysis.
+
+---
+
+## 7. Key Analysis Areas
+
+### 7.1 Late Delivery Measurement
+
+1. Percentage of late deliveries
+2. Average delay duration
+
+### 7.2 Distance Impact
+
+1. Delivery distance calculation using geo‑coordinates
+2. Delay probability across distance ranges
+
+### 7.3 Time‑Based Analysis
+
+1. Hourly delay distribution
+2. Peak vs non‑peak comparison
+3. Weekend vs weekday performance
+
+### 7.4 City‑Wise Analysis
+
+1. Late delivery rates by city
+2. Operational load comparison
+
+### 7.5 Order Risk Characteristics
+
+1. Distance
+2. Traffic conditions
+3. Weather
+4. Multiple deliveries
+5. Rider ratings
+
+---
+
+## 8. High‑Risk Order Identification
+
+A rule‑based framework was built to tag orders likely to be delivered late using:
+
+1. Long delivery distance
+2. Peak hours
+3. Heavy traffic
+4. Adverse weather
+5. Multiple active deliveries
+6. Low rider ratings
+
+This helps enable proactive operational intervention.
+
+---
+
+## 9. Distance Cap Simulation
+
+A delivery radius simulation was conducted to evaluate delay reduction.
+
+Steps:
+
+1. Apply distance caps (2 km, 5 km, 8 km, etc.)
+2. Recalculate late delivery %
+3. Compare against current performance
+
+This demonstrated how limiting long‑distance orders can reduce SLA breaches.
+
+---
+
 
 ## 10. Dashboard & Visualization Sections
 
@@ -212,7 +211,7 @@ The following visual dashboards were created to support the analysis:
 
 ---
 
-## 10. Business Impact
+## 12. Business Impact
 
 This analysis helps:
 
@@ -225,13 +224,13 @@ This analysis helps:
 
 ---
 
-## 11. Project Outcome
+## 13. Project Outcome
 
 The project delivers a structured understanding of late delivery drivers and proposes data‑backed strategies to improve delivery efficiency.
 
 ---
 
-## 12. Future Improvements
+## 14. Future Improvements
 
 1. Cost impact analysis (refunds, compensation)
 2. Rider allocation optimization
@@ -240,6 +239,6 @@ The project delivers a structured understanding of late delivery drivers and pro
 
 ---
 
-## 14. Closing Note
+## 15. Closing Note
 
 "Data doesn’t just explain delays it helps design faster deliveries."
