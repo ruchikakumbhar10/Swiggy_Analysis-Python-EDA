@@ -1,4 +1,4 @@
-# Why 28% of Swiggy Orders Are Delivered Late: A Data Case Study
+# Why 30% of Swiggy Orders Are Delivered Late: A Data Case Study
 
 ---
 
@@ -12,7 +12,7 @@ This project analyzes Swiggy delivery data to understand why orders are delivere
 
 ## 2. Problem Statement
 
-Approximately 28% of orders are delivered beyond the promised SLA time.
+Approximately 30% of orders are delivered beyond the promised SLA time.
 
 The objective of this project is to:
 
