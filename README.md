@@ -239,6 +239,11 @@ The project delivers a structured understanding of late delivery drivers and pro
 
 ---
 
-## 15. Closing Note
+## 15. Author
+
+Ruchika Kumbhar
+Data Analyst and Data Scientist
+
+## 16. Closing Note
 
 "Data doesn’t just explain delays it helps design faster deliveries."
