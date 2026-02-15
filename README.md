@@ -1,6 +1,6 @@
 # Why 30% of Swiggy Orders Are Delivered Late: A Data Case Study
 
----
+
 
 ## 1. Project Overview
 
@@ -8,7 +8,7 @@ Late deliveries are one of the most critical operational challenges in food deli
 
 This project analyzes Swiggy delivery data to understand why orders are delivered late, what operational factors drive delays, and how businesses can reduce SLA breaches using data‑driven strategies.
 
----
+
 
 ## 2. Problem Statement
 
@@ -21,7 +21,7 @@ The objective of this project is to:
 3. Detect high‑risk orders
 4. Explore operational strategies to reduce late deliveries
 
----
+
 ## 3. Project Architecture Diagram
 
 The project follows a structured analytics pipeline from raw data to business insights.
@@ -71,7 +71,7 @@ The dataset contains 45K+ delivery records with operational, geographical, and t
 8. City
 9. Time Taken (Delivery Duration)
 
----
+
 
 ## 5. Data Cleaning & Preprocessing
 
@@ -86,7 +86,7 @@ Data preparation steps included:
 
 Clean data ensured accurate delay and SLA analysis.
 
----
+
 
 ## 6. SLA Definition
 
@@ -96,7 +96,7 @@ Time Taken > 30 minutes
 
 This threshold was used to create a Late Delivery flag for analysis.
 
----
+
 
 ## 7. Key Analysis Areas
 
@@ -129,7 +129,7 @@ This threshold was used to create a Late Delivery flag for analysis.
 4. Multiple deliveries
 5. Rider ratings
 
----
+
 
 ## 8. High‑Risk Order Identification
 
@@ -144,7 +144,7 @@ A rule‑based framework was built to tag orders likely to be delivered late usi
 
 This helps enable proactive operational intervention.
 
----
+
 
 ## 9. Distance Cap Simulation
 
@@ -158,7 +158,7 @@ Steps:
 
 This demonstrated how limiting long‑distance orders can reduce SLA breaches.
 
----
+
 
 
 ## 10. Dashboard & Visualization Sections
@@ -197,7 +197,7 @@ The following visual dashboards were created to support the analysis:
 1. Late % under distance caps
 2. Reduction comparison vs current SLA performance
 
----
+
 
 ## 11. Tools & Technologies Used
 
@@ -209,7 +209,7 @@ The following visual dashboards were created to support the analysis:
 6. Data Cleaning & Feature Engineering
 7. Exploratory Data Analysis (EDA)
 
----
+
 
 ## 12. Business Impact
 
@@ -222,13 +222,13 @@ This analysis helps:
 5. Reduce SLA breaches
 6. Enhance customer satisfaction
 
----
+
 
 ## 13. Project Outcome
 
 The project delivers a structured understanding of late delivery drivers and proposes data‑backed strategies to improve delivery efficiency.
 
----
+
 
 ## 14. Future Improvements
 
@@ -237,7 +237,7 @@ The project delivers a structured understanding of late delivery drivers and pro
 3. Real‑time delay prediction model
 4. Demand vs supply balancing
 
----
+
 
 ## 15. Author
 
