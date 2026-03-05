@@ -75,7 +75,7 @@ The dataset contains 45K+ delivery records with operational, geographical, and t
 
 ## 5. Data Cleaning & Preprocessing
 
-Data preparation steps included:
+Data Preparation steps included:
 
 1. Handling NaN and inconsistent values
 2. Cleaning categorical text fields
