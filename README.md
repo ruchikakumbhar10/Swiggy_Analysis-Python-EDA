@@ -206,8 +206,10 @@ The following visual dashboards were created to support the analysis:
 3. NumPy
 4. GeoPy
 5. Matplotlib
-6. Data Cleaning & Feature Engineering
-7. Exploratory Data Analysis (EDA)
+6. Data Cleaning
+7. Data Preprocessing
+8. Feature Engineering
+9. Exploratory Data Analysis (EDA)
 
 
 
