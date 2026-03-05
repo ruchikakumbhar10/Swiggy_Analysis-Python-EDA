@@ -248,4 +248,4 @@ Data Analyst and Data Scientist
 
 ## 16. Closing Note
 
-"Data doesn’t just explain delays it helps design faster deliveries."
+Data doesn’t just explain delays it helps design faster deliveries.
