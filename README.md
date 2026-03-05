@@ -94,7 +94,7 @@ A delivery is considered **Late** if:
 
 Time Taken > 30 minutes
 
-This threshold was used to create a Late Delivery flag for analysis.
+This Threshold was used to create a Late Delivery flag for analysis.
 
 
 
