@@ -4,7 +4,7 @@
 
 ## 1. Project Overview
 
-Late deliveries are one of the most critical operational challenges in food delivery platforms. They directly impact customer satisfaction, refunds, retention, and brand trust.
+Late Deliveries are one of the most critical operational challenges in food delivery platforms. They directly impact customer satisfaction, refunds, retention, and brand trust.
 
 This project analyzes Swiggy delivery data to understand why orders are delivered late, what operational factors drive delays, and how businesses can reduce SLA breaches using data‑driven strategies.
 
