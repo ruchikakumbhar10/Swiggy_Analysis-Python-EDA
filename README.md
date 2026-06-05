@@ -210,6 +210,8 @@ The following visual dashboards were created to support the analysis:
 7. Data Preprocessing
 8. Feature Engineering
 9. Exploratory Data Analysis (EDA)
+10. Feature Scaling
+
 
 
 
